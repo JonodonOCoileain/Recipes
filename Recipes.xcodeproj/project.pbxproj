@@ -27,7 +27,6 @@
 		FC8491842DE922CE00BC3F5C /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8491912DE922D000BC3F5C /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC84919B2DE922D000BC3F5C /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC8493492DE9344300BC3F5C /* Recipes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Recipes.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -90,11 +89,6 @@
 				FC8491912DE922D000BC3F5C /* RecipesTests.xctest */,
 				FC84919B2DE922D000BC3F5C /* RecipesUITests.xctest */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC84934D2DE9344300BC3F5C /* Products */ = {
-			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -204,12 +198,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC8491852DE922CE00BC3F5C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FC84934D2DE9344300BC3F5C /* Products */;
-					ProjectRef = FC8493492DE9344300BC3F5C /* Recipes.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FC8491832DE922CE00BC3F5C /* Recipes */,
